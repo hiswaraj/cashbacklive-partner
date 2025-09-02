@@ -1,0 +1,34 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/.phpunit.cache
+/.phpunit.result.cache
+.phpactor.json
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Laravel generated files
+/public/build
+/public/hot
+/public/storage
+/storage
+/bootstrap/cache/*.php
+
+# IDE & editor configs
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+
+# Debug / log files
+npm-debug.log
+yarn-error.log
+
+# Homestead & auth
+Homestead.json
+Homestead.yaml
+auth.json

@@ -1,0 +1,7 @@
+*.md
+**/dist
+**/vendor
+**/storage
+public_html/
+**/filament
+composer.lock

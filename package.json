@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.1.10",
+        "axios": "^1.8.1",
+        "concurrently": "^9.1.2",
+        "laravel-vite-plugin": "^1.2.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-blade": "^2.1.21",
+        "prettier-plugin-tailwindcss": "^0.6.13",
+        "rollup-plugin-copy": "^3.5.0",
+        "tailwindcss": "^4.1.10",
+        "tinymce": "^8.0.1",
+        "vite": "^6.3.5"
+    }
+}
