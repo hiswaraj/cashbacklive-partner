@@ -11,7 +11,7 @@
     box-sizing: border-box; /* 1 */
     border-width: 0; /* 2 */
     border-style: solid; /* 2 */
-    border-color: #e5e7eb; /* 2 */
+    border-color: #334155; /* 2 */
 }
 
 ::before,
@@ -47,7 +47,7 @@ body {
 
 /*
 1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug_cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
 
@@ -140,8 +140,8 @@ sup {
 }
 
 /*
-1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug_cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug_cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
 
@@ -315,13 +315,13 @@ textarea {
 
 input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1; /* 1 */
-    color: #E2E2E2; /* 2 */
+    color: #64748b; /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
     opacity: 1; /* 1 */
-    color: #E2E2E2; /* 2 */
+    color: #64748b; /* 2 */
 }
 
 /*
@@ -381,7 +381,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 body {
     --tw-bg-opacity: 1;
-    background-color: rgb(14 14 14 / var(--tw-bg-opacity));
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity)); /* Pure Black */
     font-family: 'Poppins', sans-serif;;
 }
 
@@ -449,7 +449,7 @@ section {
 }
 
 .dots span {
-    --tw-drop-shadow: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.05));
+    --tw-drop-shadow: drop-shadow(0px 3px 20px rgba(0, 255, 255, 0.2)); /* Neon Drop Shadow */
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -495,7 +495,7 @@ section {
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-color: rgb(22 163 240 / 0.5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -1171,22 +1171,22 @@ section {
 
 .bg-dark {
     --tw-bg-opacity: 1;
-    background-color: rgb(14 14 14 / var(--tw-bg-opacity));
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity)); /* Pure Black */
 }
 
 .bg-orange {
     --tw-bg-opacity: 1;
-    background-color: rgb(246 137 50 / var(--tw-bg-opacity));
+    background-color: rgb(6 182 212 / var(--tw-bg-opacity)); /* Neon Cyan */
 }
 
 .bg-yellow {
     --tw-bg-opacity: 1;
-    background-color: rgb(254 190 21 / var(--tw-bg-opacity));
+    background-color: rgb(219 39 119 / var(--tw-bg-opacity)); /* Neon Pink */
 }
 
 .bg-dark-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(35 35 35 / var(--tw-bg-opacity));
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity)); /* Dark Charcoal */
 }
 
 .bg-white {
@@ -1196,22 +1196,22 @@ section {
 
 .bg-red-200 {
     --tw-bg-opacity: 1;
-    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+    background-color: rgb(34 211 238 / var(--tw-bg-opacity)); /* Light Neon Cyan */
 }
 
 .bg-dark-800 {
     --tw-bg-opacity: 1;
-    background-color: rgb(31 31 31 / var(--tw-bg-opacity));
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity)); /* Darker Charcoal */
 }
 
 .bg-red {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 142 142 / var(--tw-bg-opacity));
+    background-color: rgb(255 24 129 / var(--tw-bg-opacity)); /* Hot Pink */
 }
 
 .bg-green {
     --tw-bg-opacity: 1;
-    background-color: rgb(9 151 115 / var(--tw-bg-opacity));
+    background-color: rgb(57 255 20 / var(--tw-bg-opacity)); /* Neon Green */
 }
 
 .bg-gradient-to-b {
@@ -1223,38 +1223,38 @@ section {
 }
 
 .from-blue {
-    --tw-gradient-from: #4485FF;
-    --tw-gradient-to: rgb(68 133 255 / 0);
+    --tw-gradient-from: #00ffff; /* Neon Cyan */
+    --tw-gradient-to: rgb(0 255 255 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-pink {
-    --tw-gradient-from: #EC008C;
-    --tw-gradient-to: rgb(236 0 140 / 0);
+    --tw-gradient-from: #ff00ff; /* Neon Magenta */
+    --tw-gradient-to: rgb(255 0 255 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-red {
-    --tw-gradient-from: #FF8E8E;
-    --tw-gradient-to: rgb(255 142 142 / 0);
+    --tw-gradient-from: #ff1881; /* Neon Hot Pink */
+    --tw-gradient-to: rgb(255 24 129 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-yellow {
-    --tw-gradient-from: #FEBE15;
-    --tw-gradient-to: rgb(254 190 21 / 0);
+    --tw-gradient-from: #f6ff00; /* Neon Lemon */
+    --tw-gradient-to: rgb(246 255 0 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-orange {
-    --tw-gradient-from: #F68932;
-    --tw-gradient-to: rgb(246 137 50 / 0);
+    --tw-gradient-from: #ff7f00; /* Neon Orange */
+    --tw-gradient-to: rgb(255 127 0 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-red-600 {
-    --tw-gradient-from: rgba(234, 29, 37, 0.36);
-    --tw-gradient-to: rgb(234 29 37 / 0);
+    --tw-gradient-from: rgba(255, 0, 80, 0.5);
+    --tw-gradient-to: rgb(255 0 80 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1265,39 +1265,39 @@ section {
 }
 
 .from-green {
-    --tw-gradient-from: #099773;
-    --tw-gradient-to: rgb(9 151 115 / 0);
+    --tw-gradient-from: #39ff14; /* Neon Green */
+    --tw-gradient-to: rgb(57 255 20 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-red-400 {
-    --tw-gradient-from: #E01F2D;
-    --tw-gradient-to: rgb(224 31 45 / 0);
+    --tw-gradient-from: #ff0054; /* Neon Red/Pink */
+    --tw-gradient-to: rgb(255 0 84 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-blue-700 {
-    --tw-gradient-to: #377DFF;
+    --tw-gradient-to: #00bfff; /* Deep Sky Blue */
 }
 
 .to-pink-700 {
-    --tw-gradient-to: #B5036D;
+    --tw-gradient-to: #c71585; /* Medium Violet Red */
 }
 
 .to-red-700 {
-    --tw-gradient-to: #F62424;
+    --tw-gradient-to: #ff0000; /* Pure Red */
 }
 
 .to-yellow-700 {
-    --tw-gradient-to: #EAE697;
+    --tw-gradient-to: #dfff00; /* Chartreuse */
 }
 
 .to-yellow {
-    --tw-gradient-to: #FEBE15;
+    --tw-gradient-to: #f6ff00; /* Neon Lemon */
 }
 
 .to-red-500 {
-    --tw-gradient-to: rgba(93, 0, 210, 0);
+    --tw-gradient-to: rgba(255, 0, 255, 0);
 }
 
 .to-\[rgba\(255\2c 255\2c 255\2c 0\.6\)\] {
@@ -1305,11 +1305,11 @@ section {
 }
 
 .to-green-800 {
-    --tw-gradient-to: #43B692;
+    --tw-gradient-to: #00ff00; /* Lime Green */
 }
 
 .to-red-300 {
-    --tw-gradient-to: #E38366;
+    --tw-gradient-to: #ff4081; /* Bright Pink */
 }
 
 .p-12 {
@@ -1494,16 +1494,16 @@ section {
 
 .text-gray-400 {
     --tw-text-opacity: 1;
-    color: rgb(226 226 226 / var(--tw-text-opacity));
+    color: rgb(203 213 225 / var(--tw-text-opacity)); /* Slate 300 */
 }
 
 .text-gray-400\/60 {
-    color: rgb(226 226 226 / 0.6);
+    color: rgb(203 213 225 / 0.6);
 }
 
 .text-dark {
     --tw-text-opacity: 1;
-    color: rgb(14 14 14 / var(--tw-text-opacity));
+    color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1513,22 +1513,22 @@ section {
 
 .text-orange {
     --tw-text-opacity: 1;
-    color: rgb(246 137 50 / var(--tw-text-opacity));
+    color: rgb(6 182 212 / var(--tw-text-opacity)); /* Neon Cyan */
 }
 
 .text-yellow {
     --tw-text-opacity: 1;
-    color: rgb(254 190 21 / var(--tw-text-opacity));
+    color: rgb(219 39 119 / var(--tw-text-opacity)); /* Neon Pink */
 }
 
 .text-red-800 {
     --tw-text-opacity: 1;
-    color: rgb(153 27 27 / var(--tw-text-opacity));
+    color: #ff0054; /* Bright Neon Red */
 }
 
 .text-gray-500 {
     --tw-text-opacity: 1;
-    color: rgb(175 175 175 / var(--tw-text-opacity));
+    color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-white\/80 {
@@ -1537,7 +1537,7 @@ section {
 
 .text-red {
     --tw-text-opacity: 1;
-    color: rgb(255 142 142 / var(--tw-text-opacity));
+    color: rgb(255 24 129 / var(--tw-text-opacity)); /* Hot Pink */
 }
 
 .outline {
@@ -1545,7 +1545,7 @@ section {
 }
 
 .drop-shadow-6 {
-    --tw-drop-shadow: drop-shadow(0px 6px 32px rgba(0, 0, 0, 0.06));
+    --tw-drop-shadow: drop-shadow(0px 6px 32px rgba(6, 182, 212, 0.2)); /* Neon Cyan Shadow */
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1573,36 +1573,35 @@ section {
 
 .bg-orang-gradient {
     background: linear-gradient(
-            180deg,
-            #000000 0%,
-            rgba(134, 36, 36, 0.42) 68.23%,
-            rgba(169, 94, 94, 0) 100%
+        180deg,
+        rgba(0,0,0, 1) 0%,
+        rgba(6, 182, 212, 0.42) 68.23%,
+        rgba(6, 182, 212, 0) 100%
     );
 }
 
 .bg-gray-gradient {
     background: linear-gradient(
-            180deg,
-            #000000 0%,
-            rgba(108, 108, 108, 0.42) 68.23%,
-            rgba(0, 0, 0, 0) 100%
+        180deg,
+        rgba(0,0,0, 1) 0%,
+        rgba(51, 65, 85, 0.42) 68.23%,
+        rgba(0,0,0, 0) 100%
     );
 }
 
 .bg-purple-gradient {
     background: linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 1) 0%,
-            rgba(96, 21, 254, 0.3) 100%
+        180deg,
+        rgba(0,0,0, 1) 0%,
+        rgba(219, 39, 119, 0.3) 100%
     );
 }
 
 .brand-card-bg {
     background: linear-gradient(
-            180deg,
-            rgba(234, 29, 37, 0.36) 0%,
-            #ffffff 0.01%,
-            rgba(255, 255, 255, 0.48) 100%
+        180deg,
+        rgba(6, 182, 212, 0.2) 0%,
+        rgba(255, 255, 255, 0.05) 100%
     );
 }
 
@@ -1615,47 +1614,47 @@ section {
     border: 1px solid;
     border-image-slice: 1;
     border-width: 1px;
-    border-image-source: linear-gradient(180deg, #ea1d25 0%, #5d00d2 100%);
+    border-image-source: linear-gradient(180deg, #00ffff 0%, #ff00ff 100%); /* Cyan to Magenta */
 }
 
 .camp-card {
     border: 1px solid transparent;
     border-radius: 30px;
     background: linear-gradient(
-            to bottom,
-            #220b34,
-            rgba(193, 30, 56, 0.4),
-            #220b34
+        to bottom,
+        #111827,
+        rgba(6, 182, 212, 0.4),
+        #111827
     ),
-    linear-gradient(to bottom, #ea1d25, #5d00d2);
+    linear-gradient(to bottom, #00ffff, #ff00ff);
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
 }
 
 .bg-input {
     background: linear-gradient(
-            180deg,
-            rgba(98, 98, 98, 0.36) 99.99%,
-            rgba(93, 0, 210, 0) 100%
+        180deg,
+        rgba(31, 41, 55, 0.5) 99.99%,
+        rgba(0, 255, 255, 0) 100%
     );
 }
 
 .bg-t-and-c {
     background: linear-gradient(
-            180deg,
-            rgba(98, 98, 98, 0.36) 99.99%,
-            rgba(93, 0, 210, 0) 100%
+        180deg,
+        rgba(31, 41, 55, 0.5) 99.99%,
+        rgba(0, 255, 255, 0) 100%
     );
 }
 
 .placeholder\:text-gray-500::-moz-placeholder {
     --tw-text-opacity: 1;
-    color: rgb(175 175 175 / var(--tw-text-opacity));
+    color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .placeholder\:text-gray-500::placeholder {
     --tw-text-opacity: 1;
-    color: rgb(175 175 175 / var(--tw-text-opacity));
+    color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .hover\:appearance-none:hover {
@@ -1666,12 +1665,12 @@ section {
 
 .hover\:bg-yellow-800:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 242 0 / var(--tw-bg-opacity));
+    background-color: rgb(192 38 119 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-orange:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(246 137 50 / var(--tw-bg-opacity));
+    background-color: rgb(8 145 178 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-t:hover {
@@ -2006,4 +2005,3 @@ section {
         line-height: 65px !important;
     }
 }
-

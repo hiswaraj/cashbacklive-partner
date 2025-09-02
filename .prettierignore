@@ -2,6 +2,6 @@
 **/dist
 **/vendor
 **/storage
-public_html/
+public/
 **/filament
 composer.lock
