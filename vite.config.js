@@ -12,7 +12,7 @@ export default defineConfig({
                 'resources/css/tailwind.css',
             ],
             refresh: [`resources/views/**/*`],
-            publicDirectory: 'public_html',
+            publicDirectory: 'public',
         }),
         tailwindcss(),
 
@@ -20,7 +20,7 @@ export default defineConfig({
             targets: [
                 {
                     src: 'node_modules/tinymce',
-                    dest: 'public_html/build',
+                    dest: 'public/build',
                 },
             ],
             hook: 'writeBundle',
@@ -30,6 +30,6 @@ export default defineConfig({
         cors: true,
     },
     build: {
-        outDir: 'public_html/build',
+        outDir: 'public/build',
     },
 });

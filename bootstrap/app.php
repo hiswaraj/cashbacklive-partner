@@ -22,4 +22,4 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withExceptions(function (Exceptions $exceptions): void {
         //
     })->create()
-    ->usePublicPath(realpath(base_path('public_html')));
+    ->usePublicPath(realpath(base_path('public')));
