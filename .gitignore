@@ -15,6 +15,10 @@
 /public/hot
 /public/storage
 /storage
+!/storage/framework/cache
+/storage/*
+!/storage/framework
+!/storage/framework/cache/wire-spy-hot-reload.json
 /bootstrap/cache/*.php
 
 # IDE & editor configs
