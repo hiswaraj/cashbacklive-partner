@@ -19,7 +19,7 @@
             rel="icon"
             type="image/png"
             sizes="50x50"
-            href="{{ asset('favicon.png') }}"
+            href="{{ asset('favicon.ico') }}"
         />
 
         <!-- Styles -->

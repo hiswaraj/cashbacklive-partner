@@ -8,14 +8,14 @@
 
         <title>
             {{ $title ?? app(App\Settings\GeneralSettings::class)->site_name }}
-            
+
         </title>
 
         <link
             rel="icon"
             type="image/png"
             sizes="50x50"
-            href="{{ asset('favicon.png') }}"
+            href="{{ asset('favicon.ico') }}"
         />
 
         <!-- Vite -->
