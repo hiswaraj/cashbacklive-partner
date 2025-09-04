@@ -46,7 +46,7 @@
                     <a href="#" class="inline-block text-center">
                         <img
                             class="mx-auto max-h-8 xl:max-h-12"
-                            src="{{ asset('img/app-logo-full.jpg') }}"
+                            src="{{ asset('img/app-logo-full.webp') }}"
                             alt="site logo"
                         />
                     </a>

@@ -17,7 +17,7 @@
                 class="z-10 flex animate-pulse items-center justify-center rounded-full bg-white shadow-lg"
             >
                 <img
-                    src="{{ asset('img/app-logo.svg') }}"
+                    src="{{ asset('img/app-logo.webp') }}"
                     alt="Logo"
                     class="m-4 h-20 w-20 text-purple-600"
                 />

@@ -1,7 +1,7 @@
 <div class="flex flex-col items-center pt-6">
     <div class="flex items-center justify-center border-4 border-blue-500">
         <img
-            src="{{ asset('img/app-logo-full.jpg') }}"
+            src="{{ asset('img/app-logo-full.webp') }}"
             alt="Logo"
             class="h-24 w-98 rounded-full"
         />
